@@ -27,3 +27,5 @@ for char in name:
     line += "-"
 print(name)
 print(line)
+
+print(1+1)
