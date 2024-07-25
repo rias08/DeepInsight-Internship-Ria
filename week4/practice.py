@@ -22,7 +22,13 @@ def game():
             print('')
             print(f'Correct! The number was {computerSelection}')
             print('')
-            break
+            playAgain = input("Would you like to play again? (yes/no)  ")
+            if playAgain == 'yes':
+                game()
+            else:
+                print('')
+                print('Thank you for playing!')
+                break
         else:
             print('')
             print("Nope, that's not it. Try again!")
